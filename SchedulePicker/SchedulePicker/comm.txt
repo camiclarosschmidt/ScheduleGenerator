@@ -1,0 +1,66 @@
+﻿ /* foreach (char c in word)
+                {
+                    if (Char.IsNumber(c))
+                    {
+                        subject.Code += c;
+                        //Console.WriteLine(subject.Code);
+
+                    }
+                    else if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') && c != ' ')
+                    {
+                        subject.Name += c;
+                    }
+                    if (c == ' ')
+                    {
+                        break;
+                    }
+
+                }*/
+                //split por ' '
+                //1803001INGLES 
+                //I 
+                //1 
+                //MA
+                //815-945(693B) 
+                //CESPEDES GUIZADA MARIA BENITA\
+
+                //Console.WriteLine(subject.Code);
+                //Console.WriteLine(subject.Name);
+
+                //listSub.Add(subject);
+
+
+                //listComp.Add();
+            }
+
+            /*string phrase = "The quick brown fox jumps over the lazy dog.";
+            string[] words = phrase.Split(' ');
+
+            foreach (var word in words)
+            {
+                System.Console.WriteLine($"<{word}>");
+            }*/
+            //StreamReader FileChoose;
+
+            //extract text from pdf
+            /*string path = @"C:\Users\Camil\OneDrive\Documentos\Cami\universidad\6s\Tecnologias de software I\SchedulePicker\SchedulePicker\Test1.txt";
+            PdfToTextConverter pdfToTextConverter = new PdfToTextConverter();
+            pdfToTextConverter.LicenseKey = "ujQlNSAgNSU1IzslNSYkOyQnOywsLCw1JQ==";
+            string extractedText = pdfToTextConverter.ConvertToText("Horarios Sistemas II-2019.pdf", 1 , 2);
+            string test = extractedText.Substring(680);
+            Console.WriteLine(test);
+            if (!File.Exists(path))
+            {
+                using (StreamWriter sw = File.CreateText(path))
+                {
+                    sw.Write(extractedText);
+                }
+            }
+            using (StreamReader sr = File.OpenText(path))
+            {
+                string s = "";
+                while ((s = sr.ReadLine()) != null)
+                {
+                    Console.WriteLine(s);
+                }
+            }*/
